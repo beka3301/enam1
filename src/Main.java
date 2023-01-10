@@ -7,6 +7,7 @@ public class Main {
         Days days=Days.valueOf(scanner.nextLine().toUpperCase(Locale.ROOT));
         switch (days){
             case MONDAY -> {
+
                 System.out.println(Days.MONDAY+days.getDays());
                 break;
 
